@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cupid Celebrity</h1>
+      <p>Find your perfect match</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" class="form-control" type"text" placeholder="Name">
+        </div>
+
+        <div class="form-group">
+          <label for="born">Date of birth</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+
+        <div>
+          <label for="gender">Gender you identify with</label>
+          <select class="form-control" id="gender">
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="orient">Sexual Orientation</label>
+          <select class="form-control" id="orient">
+            <option>Hetero</option>
+            <option>Homo</option>
+            <option>Bisexual</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="attrc">Favorite physical feature</label>
+          <select class="form-control" id="attrc">
+            <option>Face</option>
+            <option>Body</option>
+            <option>Derriere</option>
+          </select>
+        </div>
+        
+        <button class="btn">Submit!</button>
+      </form>
+      <div id="celebs">
+        <img id="brad" src="img/brad.jpg" alt="brad pit">
+        <img id="will" src="img/will.jpg" alt="Will smith">
+        <img id="denzel" src="img/denzel.jpg" alt="Denzel Washington">
+        <img id="jlo" src="img/jlo.jpg" alt="Jenifer lopez">
+        <img id="rihanna" src="img/rihanna.jpg" alt="Rihanna Robin">
+        <img id="beyonce" src="img/beyonce.jpg" alt="Beyonce Knowles">
+      </div>
+    </div>
+  </body>
+</html>
