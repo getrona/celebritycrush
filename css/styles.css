@@ -1,3 +1,10 @@
-#celebs {
+#brad, #will, #denzel, #jlo, #rihanna, #beyonce, #result{
   display: none;
+}
+
+img {
+  width: 300px;
+  height: auto;;
+  display: block;
+  image-orientation: center;
 }

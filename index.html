@@ -11,15 +11,15 @@
     <div class="container">
       <h1>Cupid Celebrity</h1>
       <p>Find your perfect match</p>
-      <form>
+      <form id="celebrities">
         <div class="form-group">
           <label for="name">Name</label>
           <input id="name" class="form-control" type"text" placeholder="Name">
         </div>
 
         <div class="form-group">
-          <label for="born">Date of birth</label>
-          <input id="born" class="form-control" type="date">
+          <label for="age">Age</label>
+          <input id="age" class="form-control" type="number">
         </div>
 
         <div>
@@ -47,10 +47,11 @@
             <option>Derriere</option>
           </select>
         </div>
-        
+
         <button class="btn">Submit!</button>
       </form>
-      <div id="celebs">
+      <div class="celebs">
+        <p id="result">Your celebrity match is:</p>
         <img id="brad" src="img/brad.jpg" alt="brad pit">
         <img id="will" src="img/will.jpg" alt="Will smith">
         <img id="denzel" src="img/denzel.jpg" alt="Denzel Washington">
